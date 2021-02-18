@@ -1,0 +1,31 @@
+{
+  "users": [
+    { "id": 1, "avatar": "/img/1.jpg", "isBlocked": false, "email": "phoebe@inbox.lv", "username": "Phoebe" },
+    { "id": 2, "avatar": "/img/2.jpg", "isBlocked": true, "email": "artemis@gmail.com", "username": "Artemis" },
+    { "id": 3, "avatar": "/img/3.jpg", "isBlocked": true, "email": "ares@gmail.com", "username": "Ares" },
+    { "id": 4, "avatar": "/img/4.jpg", "isBlocked": false, "email": "aphrodite@gmail.com", "username": "Aphrodite" }
+  ],
+  "messages": [
+    { "id": 1, "message": "Hello adskjfhsjdfh" },
+    { "id": 2, "message": "Hello!" },
+    { "id": 3, "message": "?" },
+    { "id": 4, "message": "Nulla id anim consectetur labore labore dolore." },
+    { "id": 5, "message": "Quis enim do occaecat esse minim occaecat commodo voluptate nisi non aute est. Est cupidatat consectetur ullamco nulla nisi sunt consectetur aliquip nostrud deserunt Lorem qui. Magna commodo labore reprehenderit adipisicing officia quis ipsum. Exercitation officia irure excepteur aliqua in dolor est ipsum do sit ad in qui reprehenderit." },
+    { "id": 6, "message": "Sit Lorem fugiat tempor et fugiat velit consequat fugiat pariatur sint dolor laboris." },
+    { "id": 7, "message": "Commodo quis reprehenderit culpa commodo ad reprehenderit reprehenderit reprehenderit do proident do consectetur. Sint aliqua proident culpa cillum do reprehenderit consectetur cupidatat non et. Sit in occaecat magna sit Lorem in ad exercitation tempor sunt. Dolor irure incididunt tempor ad aliquip consequat duis dolore irure. Sit nulla labore nisi nostrud voluptate consectetur ea irure elit ex reprehenderit. Ea exercitation ex sint nisi mollit ea adipisicing quis ut ipsum aliquip. Fugiat voluptate proident proident sunt." },
+    { "id": 8, "message": "Officia ea culpa exercitation esse consectetur in pariatur ea dolor culpa aliqua veniam laborum labore." },
+    { "id": 9, "message": "Irure cillum voluptate do laborum esse ut." },
+    { "id": 10, "message": "pis nah." }
+  ],
+  "messages_users": [
+    { "message_id": 1, "from_user": 4, "to_user": 1 },
+    { "message_id": 2, "from_user": 2, "to_user": 3 },
+    { "message_id": 3, "from_user": 4, "to_user": 3 },
+    { "message_id": 4, "from_user": 1, "to_user": 4 },
+    { "message_id": 5, "from_user": 4, "to_user": 1 },
+    { "message_id": 6, "from_user": 4, "to_user": 1 },
+    { "message_id": 7, "from_user": 1, "to_user": 4 },
+    { "message_id": 8, "from_user": 1, "to_user": 4 },
+    { "message_id": 9, "from_user": 2, "to_user": 4 }
+  ]
+}
